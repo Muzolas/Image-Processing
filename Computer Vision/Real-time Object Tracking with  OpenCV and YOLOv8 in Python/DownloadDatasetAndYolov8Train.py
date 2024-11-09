@@ -18,7 +18,7 @@ dataset = version.download("yolov8")  # Veri YOLOv8 formatında indirildi
 # YOLOv8 modelini eğitmek için yol
 data_yaml_path = os.path.join(dataset.location, "data.yaml")  # İndirilen verinin konumu
 
-# YOLOv8 modelini başlatın
+# YOLOv8 modelini başlat
 model = YOLO("yolov8n.pt")  # YOLOv8 nano modelini kullanarak başlatıyoruz
 
 # Eğitimi başlatın
