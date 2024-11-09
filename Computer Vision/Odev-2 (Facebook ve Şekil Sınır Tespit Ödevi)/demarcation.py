@@ -46,7 +46,7 @@ plt.savefig('gradyan_yonu.png')
 plt.tight_layout()  
 plt.show()
 
-# Gradyan büyüklüğü ve yönünü ayrı ayrı kaydet
+# Gradyan büyüklüğü ve yönünü ayrı ayrı kaydetme
 cv2.imwrite('C:\\Image Processing\\Computer Vision\\Odev-2\\gradyan_buyuklugu_cv2.png', magnitude_normalized)
 cv2.imwrite('C:\\Image Processing\\Computer Vision\\Odev-2\\gradyan_yonu_cv2.png', angle_normalized)
 
